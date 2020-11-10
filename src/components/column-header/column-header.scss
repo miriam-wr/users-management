@@ -1,5 +1,8 @@
 .column-header{
     position: relative;
+    .column-header-text{
+        display: flex;
+    }
     .filter-modal{
         position: absolute;
         background-color: lightgray;
@@ -10,5 +13,12 @@
         input{
             width: 100%;
         }
+    }
+    .filter{
+        background-image: url('../../assets//icons/filter.svg');
+        height: 10px;
+        width: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
